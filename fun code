@@ -1,0 +1,41 @@
+def bet():
+    amt = 500
+    lis=[]
+    b = int(input("enter the amount you want to bet: "))
+    if b <= amt:
+        for i in range(10):
+            n = random.randint(0, 10)
+            c = str(input("enter your guess:"))
+            if c == n:
+                print("you have hit the jackpot!!")
+                amt = amt + b
+                lis.append(amt)
+                print("current balance:", amt)
+                break
+            elif c=='':
+                print("invalid input")
+                continue
+            else:
+                print("the computer guessed", n, "you guessed", c, "please retry!!")
+        if amt not in lis:
+            amt=amt-b
+            print("current balance:",amt)
+        d = str(input("do you wish to continue the bet?? y/n"))
+        if d == 'y':
+            bet()
+        else:
+            print("come back when you wish to make a fortune!!")
+    else:
+        print("you are not yet that rich!!")
+
+
+import random
+amt=500
+print("your current balance",amt)
+
+print("make $1000000 as soon as possible!!")
+a=str(input("are you ready to make millions? Y/N: "))
+if a=='y':
+    bet()
+elif a=='n':
+    print("come back when you wish to make a fortune!!")
