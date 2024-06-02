@@ -39,11 +39,11 @@ To run the game, execute the script in a Python environment.
 
 Notes
 
-Input Validation: Ensure you enter valid inputs as prompted to avoid errors.
+        - Input Validation: Ensure you enter valid inputs as prompted to avoid errors.
 
-Betting Amount: You cannot bet more than your current balance.
+        - Betting Amount: You cannot bet more than your current balance.
 
-Game Continuation: Decide whether to continue betting after each round.
+        - Game Continuation: Decide whether to continue betting after each round.
 
 
 Contribution
