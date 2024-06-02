@@ -1,4 +1,5 @@
 **Betting Game**
+
 Welcome to the Betting Game! 
 The goal is to guess the correct number and make $1,000,000 as soon as possible. 
 Start with an initial balance of $500 and try your luck. 
