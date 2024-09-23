@@ -1,5 +1,5 @@
 import random
-
+#function. 
 def bet(balance):
     bet_amount = int(input("Enter the amount you want to bet: "))
     if bet_amount > balance:
